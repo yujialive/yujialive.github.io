@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://yujialive.github.io
+author: panda
+pygments: true
+paginate: 24

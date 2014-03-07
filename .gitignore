@@ -1,2 +1,2 @@
-*.zip
-*.tmp
+_site
+.DS_Store
