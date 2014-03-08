@@ -77,7 +77,8 @@ print "If I add %d, %d, and %d I get %d." % (
 	my_age, my_height, my_weight, my_age + my_height + my_weight)
 {% endhighlight %}
 
-### Python3中如何`print()`方法 `format string`
+### Python格式化字符串
+Python3中如何`print()`方法 `format string`
 使用"str".format()方法
 {% highlight python %}
 my_name = "Panda Yu"
