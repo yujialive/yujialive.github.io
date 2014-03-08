@@ -99,7 +99,7 @@ h2 i {
 	color: #ccc;
 }
 h3 {
-    color: #004040;
+    color: red;
     font-size: 18px;
     line-height: 24px;
 }
@@ -134,13 +134,13 @@ pre {
     padding: 12px;
     margin: 0 0 24px;
     line-height: 1.5em;
-	background: #E7FEE7;
+	background: #E7FEF1;
 }
 p code {
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
     font-size: 14px;
     border: 1px solid #edebea;
-    background: #E7FEE7;
+    background: #E7FEF1;
 }
 hr {
     border: 0;
