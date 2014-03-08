@@ -83,15 +83,15 @@ h1 {
     line-height: 28px;
     padding: 3px;
     margin: 0 0 28px 0;
-	background-color: #3f1f1f;
+	background-color: #2B483E;
 	color: #fff;
 	display: inline-block;
 	padding: 12px;
 }
 h2 {
     font-size: 26px;
-    line-height: 48px;
-    margin: 0 0 24px 0;
+    line-height: 2em;
+    margin: 0 0 10px 0;
 }
 h2 i {
 	font-size: 18px;
@@ -131,7 +131,7 @@ pre {
     padding: 12px;
     margin: 0 0 24px;
     line-height: 1.5em;
-	background-color: #CEECE3;
+	background-color: #D7EAE8;
 }
 p code {
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
