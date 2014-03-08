@@ -126,14 +126,15 @@ dt {
     font-weight: 700;
 }
 pre {
-    border-left: 6px solid #edebea;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
     overflow: auto;
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;;
     font-size: 14px;
     padding: 12px;
     margin: 0 0 24px;
     line-height: 1.5em;
-	background-color: #D7EAE8;
+	background: #f8f8f8;
 }
 p code {
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
