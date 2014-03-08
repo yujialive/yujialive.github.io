@@ -134,13 +134,13 @@ pre {
     padding: 12px;
     margin: 0 0 24px;
     line-height: 1.5em;
-	background: #D5FDD5;
+	background: #E7FEE7;
 }
 p code {
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
     font-size: 14px;
     border: 1px solid #edebea;
-    background: #D5FDD5;
+    background: #E7FEE7;
 }
 hr {
     border: 0;
