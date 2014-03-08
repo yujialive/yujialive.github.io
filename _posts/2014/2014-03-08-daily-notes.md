@@ -76,3 +76,13 @@ print "His teeth are usually %s depending on the coffee." % my_teeth
 print "If I add %d, %d, and %d I get %d." % (
 	my_age, my_height, my_weight, my_age + my_height + my_weight)
 {% endhighlight %}
+
+### Python3中如何`print()`方法 `format string`
+使用"str".format()方法
+{% highlight python %}
+my_name = "Panda Yu"
+my_age = 32 # not a lie
+
+formated_str = "let's talk about {0}, my age is {1}".format(my_name, my_age)
+print(out_string)
+{% endhighlight %}

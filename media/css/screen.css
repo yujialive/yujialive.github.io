@@ -83,7 +83,7 @@ h1 {
     line-height: 28px;
     padding: 3px;
     margin: 0 0 28px 0;
-	background-color: #660000;
+	background-color: #313131;
 	color: #fff;
 	display: inline-block;
 	padding: 12px;
@@ -99,7 +99,7 @@ h2 i {
 	color: #ccc;
 }
 h3 {
-    color: #6C6C00;
+    color: #004040;
     font-size: 18px;
     line-height: 24px;
 }
@@ -116,11 +116,11 @@ p.intro {
 }
 ul {
     list-style-type: square;
-    padding-left: 12px;
+    padding-left: 20px;
 }
 ol {
     list-style-type: decimal;
-    padding-left: 12px;
+    padding-left: 20px;
 }
 dt {
     font-weight: 700;
@@ -134,12 +134,13 @@ pre {
     padding: 12px;
     margin: 0 0 24px;
     line-height: 1.5em;
-	background: #f8f8f8;
+	background: #D5FDD5;
 }
 p code {
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
     font-size: 14px;
     border: 1px solid #edebea;
+    background: #D5FDD5;
 }
 hr {
     border: 0;
