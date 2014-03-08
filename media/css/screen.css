@@ -83,12 +83,13 @@ h1 {
     line-height: 28px;
     padding: 3px;
     margin: 0 0 28px 0;
-	background-color: #2B483E;
+	background-color: #660000;
 	color: #fff;
 	display: inline-block;
 	padding: 12px;
 }
 h2 {
+    color: #800000;
     font-size: 26px;
     line-height: 2em;
     margin: 0 0 10px 0;
@@ -98,6 +99,7 @@ h2 i {
 	color: #ccc;
 }
 h3 {
+    color: #6C6C00;
     font-size: 18px;
     line-height: 24px;
 }
