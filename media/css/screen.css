@@ -67,7 +67,7 @@ body>div {
     -moz-box-shadow: 0 0 10px 0 #cfcfcf;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
-    border-top: 5px solid #008000;
+    border-top: 5px solid #E80000;
 }
 h1 {
     font-size: 28px;
@@ -80,19 +80,21 @@ h1 {
 	padding: 12px;
 }
 h2 {
-    color: #800000;
+    color: #000000;
     font-size: 26px;
     line-height: 2em;
     margin: 0 0 10px 0;
+    background: #f2f2f2;
 }
 h2 i {
 	font-size: 18px;
 	color: #ccc;
 }
 h3 {
-    color: #9B0000;
+    color: #800000;
     font-size: 18px;
     line-height: 24px;
+    background: #CCAACC;
 }
 section>h3 {
     margin: 0 0 24px 0;
@@ -125,13 +127,14 @@ pre {
     padding: 12px;
     margin: 0 0 24px;
     line-height: 1.5em;
-	background: #EEF7F0;
+	background: #F2F8F9;
 }
 p code {
     font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
     font-size: 14px;
     border: 1px solid #EDEBEA;
-    background: #EEF7F0;
+    padding: 0 1px;
+    background: #F2F8F9;
 }
 hr {
     border: 0;
@@ -140,10 +143,10 @@ hr {
     margin: 0 0 22px 0;
 }
 a {
-    color: #0080FF;
+    color: #00509F;
 }
 a:visited {
-    color: #4F4F9D;
+    color: #38435A;
 }
 a.ss-icon {
 	font-size: 20px;
@@ -151,7 +154,7 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #FF00FF;
+    color: #FF0000;
 }
 em {
     font-style: italic;

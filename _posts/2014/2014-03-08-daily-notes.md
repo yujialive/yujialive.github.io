@@ -100,4 +100,20 @@ print(out_string)
 # Sample 3
 print('This {food} is {adjective}.'.format(food='spam', adjective='absolutely horrible'))
 print("abc {:s}".format("gagaag"))
+
+# Sample 4
+x = "There are %d types of people." % 10
+y = "Hello world"
+print("I said: %r." % x)
+print("I also said: '%s'." % y)
+print("%d %s %f" %(10, "hello", 34))
+# What is the difference between %r and %s?
+# We use %r for debugging, since it displays the “raw” data of the variable, but we use %s and
+# others for displaying to users.
+
+# Sample 5
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! %r"
+print(joke_evaluation % hilarious)
+print('.' * 10)
 {% endhighlight %}
