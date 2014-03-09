@@ -4,60 +4,25 @@ title: Python学习2
 categories: study
 tags: 
 - python
-- python3
 ---
 
-## Printing
+## Python 第三方安装包管理工具
+[PyPI - the Python Package Index](https://pypi.python.org/pypi)
+1. [setuptools](https://pypi.python.org/pypi/setuptools)  
+	`python ez_setup.py`
 
-{% highlight python %}
-days = "Mon Tue Wed Thu Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+2. [pip](https://pypi.python.org/pypi/pip)  
+	`python get-pip.py`
 
-print("Here are the days: ", days)
-print("Here are the months: ", months)
+## Python BeautifulSoup 安装
+[安装包](http://www.crummy.com/software/BeautifulSoup/#Download)  
+[文档](http://www.crummy.com/software/BeautifulSoup/documentation.html)  
+下载后解压， 然后进入目录执行
 
-print("""
-There's something going on here.
-With the three double- quotes.
-We'll be able to type as much as we like.
-Even 4 lines if we want, or 5, or 6.
-""")
+	python setup.py build 
+	python setup.py install
 
-# Output
-# Here are the days:  Mon Tue Wed Thu Fri Sat Sun
-# Here are the months:  Jan
-# Feb
-# Mar
-# Apr
-# May
-# Jun
-# Jul
-# Aug
+## Python Chardet 安装
 
-# There's something going on here.
-# With the three double- quotes.
-# We'll be able to type as much as we like.
-# Even 4 lines if we want, or 5, or 6
+	pip install chardet
 
-{% endhighlight %}
-
-## Escape Sequences
-
-	\\ 			Backslash (\)
-	\' 			Single-quote (')
-	\" 			Double-quote (")
-	\a 			ASCII bell (BEL)
-	\b 			ASCII backspace (BS)
-	\f 			ASCII formfeed (FF)
-	\n 			ASCII linefeed (LF)
-	\N{name} 	Character named name in the Unicode database (Unicode only)
-	\r 			ASCII carriage return (CR)
-	\t 			ASCII horizontal tab (TAB)
-	\uxxxx 		Character with 16-bit hex value xxxx (Unicode only)
-	\Uxxxxxxxx 	Character with 32-bit hex value xxxxxxxx (Unicode only)
-	\v 			ASCII vertical tab (VT)
-	\ooo 		Character with octal value oo
-	\xhh 		Character with hex value hh
-
-## pygments 备忘
-> {% raw %}{% endhighlight %}{% endraw %}之前行不要有'.'或者最好加个空行

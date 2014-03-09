@@ -9,9 +9,14 @@ tags: bookmarks
 [ywy]: http://www.yuwenyi.com/  "Panda Blog"
 
 ### 资讯
+- [知乎](http://www.zhihu.com)
+- [豆瓣](http://www.douban.com)
 - [异次元软件世界](http://www.iplaysoft.com)
 - [infoq](http://www.infoq.com/cn/)
+
+### 博客
 - [wulijun.github.io](http://wulijun.github.io/)
+- [www.crifan.com](http://www.crifan.com/)
 
 ### Code
 - [oschina](http://www.oschina.net)
