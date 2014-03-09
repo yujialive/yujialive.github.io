@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 学习日记
+title: Python学习1
 categories: study
-tags: python, crawler
+tags: python, python3, crawler
 ---
 
 ## 札记
@@ -77,13 +77,27 @@ print "If I add %d, %d, and %d I get %d." % (
 	my_age, my_height, my_weight, my_age + my_height + my_weight)
 {% endhighlight %}
 
-### Python格式化字符串
+### Python3格式化字符串
 Python3中如何`print()`方法 `format string`
+具体请参看官方文档[python docs](http://docs.python.org/2/library/string.html)
 使用"str".format()方法
 {% highlight python %}
+# Sample 1
 my_name = "Panda Yu"
 my_age = 32 # not a lie
-
-formated_str = "let's talk about {0}, my age is {1}".format(my_name, my_age)
+out_string = "let's talk about {0}, my age is {1}".format(my_name, my_age)
 print(out_string)
+
+# Sample 2
+int_count = 30
+float_num = 2323.443
+out_string = "|{0:20d}|{0:>20d}|{1:.3f}|{1:20f}|".format(int_count, float_num)
+print(out_string)
+
+out_string = "|{0:20d}|{0:<20d}|{1:.3f}|{1:20f}|".format(int_count, float_num)
+print(out_string)
+
+# Sample 3
+print('This {food} is {adjective}.'.format(food='spam', adjective='absolutely horrible'))
+print("abc {:s}".format("gagaag"))
 {% endhighlight %}
