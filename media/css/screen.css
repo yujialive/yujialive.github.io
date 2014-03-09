@@ -138,7 +138,7 @@ hr {
     margin: 0 0 22px 0;
 }
 a {
-    color: #00509F;
+    color: #800000;
 }
 a:visited {
     color: #38435A;
@@ -149,7 +149,7 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #FF0000;
+    color: #000000;
 }
 em {
     font-style: italic;
