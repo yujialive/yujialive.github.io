@@ -2,7 +2,10 @@
 layout: post
 title: Python学习1
 categories: study
-tags: python, python3, crawler
+tags: 
+- python
+- python3
+- crawler
 ---
 
 ## 札记
