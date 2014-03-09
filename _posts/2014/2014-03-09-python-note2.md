@@ -8,6 +8,7 @@ tags:
 
 ## Python 第三方安装包管理工具
 [PyPI - the Python Package Index](https://pypi.python.org/pypi)
+
 1. [setuptools](https://pypi.python.org/pypi/setuptools)  
 	`python ez_setup.py`
 

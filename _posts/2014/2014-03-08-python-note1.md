@@ -12,11 +12,10 @@ tags:
 什么是执行意图？就是使用if...then...的思考范式。比如， 不要再说，我要学Ruby。 而是说，如果我要学习Ruby，那么，今天晚上就装上环境。
 
 > 如果我要学习Python，那么，今天晚上就装上环境
-	1. reading and writing
-	2. attention to detail
-	3. spotting differences
 
-	[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")
+1. reading and writing
+2. attention to detail
+3. spotting differences
 
 ## Numbers and Match
 	+ 	plus
