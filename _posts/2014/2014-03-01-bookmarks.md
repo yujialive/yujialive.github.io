@@ -50,6 +50,7 @@ enkins的入门教程
 
 ### 电子书
 - [新浪爱问共享资料](http://ishare.iask.sina.com.cn/)
+- [doc88](http://www.doc88.com/p-30822712336.html)
 - [ppurl](http://ppurl.com)
 > wenpan1~9
 
