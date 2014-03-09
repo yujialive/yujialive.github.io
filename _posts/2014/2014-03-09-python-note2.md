@@ -57,3 +57,5 @@ Even 4 lines if we want, or 5, or 6.
 	\ooo 		Character with octal value oo
 	\xhh 		Character with hex value hh
 
+## pygments 备忘
+> {% endhighlight %}之前行不要有.或者最好加个空行

@@ -87,7 +87,7 @@ h2 i {
 	color: #ccc;
 }
 h3 {
-    color: #00699B;
+    color: #000000;
     font-size: 18px;
     line-height: 1.5em;
 }
@@ -138,10 +138,10 @@ hr {
     margin: 0 0 22px 0;
 }
 a {
-    color: #005500;
+    color: #0053A6;
 }
 a:visited {
-    color: #005500;
+    color: #0053A6;
 }
 a.ss-icon {
 	font-size: 20px;
