@@ -59,7 +59,7 @@ body{
 #head_bg {
     margin:0 auto;
     text-align: center;
-    background: url(media/img/head_bg.jpg) top center no-repeat;
+    background: url(/media/img/head_bg.jpg) top center no-repeat;
     height: 176px;
 }
 #container {
