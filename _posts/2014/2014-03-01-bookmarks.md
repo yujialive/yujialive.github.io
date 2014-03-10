@@ -17,6 +17,7 @@ tags: bookmarks
 ### 博客
 - [wulijun.github.io](http://wulijun.github.io/)
 - [www.crifan.com](http://www.crifan.com/)
+- [博客参考1](http://s.yanghao.org/)
 
 ### Code
 - [oschina](http://www.oschina.net)
@@ -46,12 +47,15 @@ tags: bookmarks
 > Jenkins是Continous Integration Server，是Hadson的继续。 
 类似的产品： CruiseControl，BuildBot，TeamCity，BuildForge, ElectricCommander等。
 enkins的入门教程
-- [博客参考1](http://s.yanghao.org/)
 
 ### 电子书
 - [新浪爱问共享资料](http://ishare.iask.sina.com.cn/)
 - [doc88](http://www.doc88.com/p-30822712336.html)
 - [ppurl](http://ppurl.com)
 > wenpan1~9
+
+### 音乐
+- [落网](http://www.luoo.net/)
+
 
 
