@@ -1,5 +1,5 @@
 markdown: rdiscount
-permalink: /:year/:month/:day/:title/
+permalink: /:year:month:day-:title/
 url: http://yujialive.github.io
 author: panda
 pygments: true

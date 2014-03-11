@@ -21,12 +21,16 @@ tags: bookmarks
 
 ### Code
 - [oschina](http://www.oschina.net)
-- [github](http://github.com)
+- [github.com](http://github.com)
+- [bitbucket.org](http://bitbucket.org)
+- [gitorious.org](http://gitorious.org)
+- [launchpad.net](http://launchpad.net)
+- [sourceforge.net](http://sourceforge.net)
+- [freecode.com](http://freecode.com)
 
 ### 教程
 - [PHP 中文手册](http://php.net/manual/zh/index.php)
 - [TutorialsPoint 学习网站](http://www.tutorialspoint.com/index.htm)
-- [Python 官方教程](http://docs.python.org/2/tutorial/)
 - [Android 学习指南](http://android.yaohuiji.com/about)
 - [Linux C 编程一站式学习](http://learn.akae.cn/media/index.html)
 - [Learn Code The Hard Way](http://learncodethehardway.org/)
@@ -36,6 +40,11 @@ tags: bookmarks
 - [All Cheat-sheets 1](http://cheat-sheets.org/)
 - [All Cheat-sheets 2](http://refcardz.dzone.com/)
 - [如何学习一门新的编程语言？——在学习区刻意练习](http://www.yangzhiping.com/tech/learn-program-psychology.html)
+
+### Python
+- [Python 官方教程](http://docs.python.org/2/tutorial/)
+- [PythonBooks](http://pythonbooks.revolunet.com/)
+- [Python 3 Resources](http://getpython3.com/)
 
 ### 我的
 - [yuwenyi/daily](http://daily.yuwenyi.com)
@@ -56,6 +65,5 @@ enkins的入门教程
 
 ### 音乐
 - [落网](http://www.luoo.net/)
-
 
 
