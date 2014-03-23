@@ -10,15 +10,22 @@ tags: bookmarks
 [ywy]: http://www.yuwenyi.com/  "Panda Blog"
 
 ### 资讯
+- [51小清新](http://51xqx.com/)
 - [知乎](http://www.zhihu.com)
 - [豆瓣](http://www.douban.com)
-- [异次元软件世界](http://www.iplaysoft.com)
+- [果壳](http://www.guokr.com/)
+- [爱范儿](http://www.ifanr.com/)
 - [infoq](http://www.infoq.com/cn/)
+- [善用佳软](http://xbeta.info/)
 
 ### 博客
+- [褪墨](http://www.mifengtd.cn/) :时间管理:
+- [战拖会](http://www.zhantuo.com/) :用行之有效的办法打败拖延症:
+- [古道视野](http://www.gudaovision.com/) :换个角度看世界:
 - [wulijun.github.io](http://wulijun.github.io/)
 - [www.crifan.com](http://www.crifan.com/)
-- [博客参考1](http://s.yanghao.org/)
+- [s.yanghao.org](http://s.yanghao.org/)
+- [异次元软件世界](http://www.iplaysoft.com)
 
 ### Code
 - [oschina](http://www.oschina.net)
@@ -66,21 +73,3 @@ enkins的入门教程
 
 ### 音乐
 - [落网](http://www.luoo.net/)
-
-
-552352
-330725198107221734
-6226090214051712
-
-2012-5-21 -- 
-2010-12-6 -- 2012-5-18
-2006-11-1 -- 2010-12-1
-陶海晶 15214309326
-高虹飞 18910906915
-Tina Huang 13811100766
-余燕君 18930990609
-
-#### 刚
-先去五道口 27楼拿工牌
-然后去28楼 找潘竹青
-下午去宏伊大厦
