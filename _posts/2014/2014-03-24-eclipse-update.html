@@ -1,0 +1,26 @@
+---
+layout: post
+title: 保留原有插件，快速升级Eclipse发行版本
+categories: eclipse
+tags: 
+- eclipse
+- update
+---
+<div style="background:#f09;color:#fff; padding:20px;">
+
+嗯，以前都是通过Check for Update升级。<br/>
+
+但是这种方式一来网慢，二来有些时候还真升不上去。比如我之前的Eclipse 4.2, <br/>是从Milestone版本一路升级上来的。最后一个RC之后本来应该直接升级到GA的，但是不知道为什么，升级完后版本号没有变化。<br/>
+
+突然想到Eclipse 3.7以后有一个功能是通过已经安装的Eclipse装一些插件。正好可以用来快速升级：<br/>
+
+把原来的Eclipse文件夹修改成Eclipse_old，然后直接官网下载最新发行版本（还有BT种子方式下载）。启动后，选择File->Import->Install->From Exist Installation，选择旧的Eclipse安装文件夹……<br/>
+
+以前装的插件都出现了。直接全选安装，瞬间就从本地的安装中把原来的插件都迁移过来了。<br/>
+
+而其它设置是跟着workspace走的，所以指向到同一个workspace就行了。<br/>
+
+另外，jdeclipse官网貌似挂掉了，所以也没法通过网络安装了，现在想装jdeclipse也只能通过这种方式装了（以前装过的别乱删，删了就彻底没了）。<br/>
+
+最后记得，这样装完之后，update站点是没有导入的（update站点和网络代理设置之类的是跟着Eclipse程序目录走的，而不是存在workspace里），所以记得手工加一下站点，不然以后各个插件的升级通知就都收不到了。<br/>
+</div>
