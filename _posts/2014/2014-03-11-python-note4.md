@@ -33,11 +33,13 @@ a = b[:]    # clone 复制新对象
 * None
 
 ### os.environ
+
     import os
     path = os.environ["PATH"]
     user = os.environ["USER"]
     editor = os.environ["EDITOR"]
     ... etc ...
+
 Modifications to os.environ affect both the running program and subprocesses created
 by Python.
 
