@@ -36,3 +36,6 @@ TestNG and ReportNG
     results.html.vm
     class-results.html.vm
     reportng.css
+
+## git
+git pull origin
