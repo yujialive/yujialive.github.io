@@ -7,7 +7,8 @@ tags:
 ---
 
 - link: <http://beiyuu.com/github-pages/>
-- link: <https://help.github.com/articles/changing-a-remote-s-url>
+- changing a remote url: <https://help.github.com/articles/changing-a-remote-s-url>
+- passphrases: <https://help.github.com/articles/working-with-ssh-key-passphrases>
 
 ## open git bash to gen key
 
