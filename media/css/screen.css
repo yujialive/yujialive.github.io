@@ -50,8 +50,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-family: "Microsoft YaHei", Verdana, Tahoma, sans-serif;
-    color: #111;
-    background-color: #174B02;
+    color: #222;
+    background-color: #ffffff;
     line-height: 1.5em;
 }
 #head_bg {
@@ -145,6 +145,7 @@ hr {
 }
 a {
     color: #0053A6;
+    text-decoration: none;
 }
 a:visited {
     color: #0053A6;
@@ -155,7 +156,7 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #008000;
+    color: #ff0099;
 }
 em {
     font-style: italic;
