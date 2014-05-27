@@ -255,10 +255,12 @@ footer a:hover {
 }
 
 #tag_cloud {
-    background: #efffef;
+    border-bottom: #aaa;
 }
 
 #tag_cloud a {
-    margin:7px;
-    padding:3px;
+    margin:6px 2px;
+    padding:3px 1px;
 }
+
+#tag_cloud a:hover {color:red;}
