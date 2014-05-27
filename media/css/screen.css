@@ -146,8 +146,6 @@ hr {
 a {
     color: #0053A6;
     text-decoration: none;
-    padding-bottom: 2px;
-    border-bottom: 1px solid #f09;
 }
 a:visited {
     color: #0053A6;
@@ -158,7 +156,8 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #ff0099;
+    color: #ff0000;
+    text-decoration: underline;
 }
 em {
     font-style: italic;
