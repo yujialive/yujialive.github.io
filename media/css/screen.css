@@ -29,9 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -54,7 +51,7 @@ body{
     margin-right: auto;
     font-family: "Microsoft YaHei", Verdana, Tahoma, sans-serif;
     color: #111;
-    background-color: #ffffff;
+    background-color: #174B02;
     line-height: 1.5em;
 }
 #head_bg {
