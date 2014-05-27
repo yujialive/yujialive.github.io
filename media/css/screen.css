@@ -198,7 +198,7 @@ dl .meta {
 }
 
 .listing-item time{color:#999999;}
-.listing-seperator{font-weight:bold;}
+.listing-seperator{font-weight:bold; margin-top: 10px; color: green;}
 
 
 .paginator {
@@ -253,10 +253,12 @@ footer a:hover {
     -webkit-box-shadow: rgba(0,0,0,1.0) 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
     text-decoration: none;
 }
+
 #tag_cloud {
     background: #efe;
 }
 
 #tag_cloud a {
-    margin:10px;
+    margin:7px;
+    padding:3px;
 }
