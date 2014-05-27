@@ -13,11 +13,11 @@ link: <https://help.github.com/articles/changing-a-remote-s-url>
 
 {% highlight bash %}
 
-	ssh-keygen -T rsa -C "yujialive@gmail.com"
-	passphrase # 可以为空格
+ssh-keygen -T rsa -C "yujialive@gmail.com"
+passphrase # 可以为空格
 
-	<homedir>/.ssh/id_rsa
-	<homedir>/.ssh/id_rsa.pub
+<homedir>/.ssh/id_rsa
+<homedir>/.ssh/id_rsa.pub
 
 {% endhighlight %}
 
@@ -25,7 +25,7 @@ link: <https://help.github.com/articles/changing-a-remote-s-url>
 
 {% highlight bash %}
 
-	id_rsa.pub to github.com -- user settings -- ssh keys
+id_rsa.pub to github.com -- user settings -- ssh keys
 
 {% endhighlight %}
 
@@ -33,7 +33,7 @@ link: <https://help.github.com/articles/changing-a-remote-s-url>
 
 {% highlight bash %}
 
-	ssh -T git@github.com
+ssh -T git@github.com
 
 {% endhighlight %}
 
@@ -41,18 +41,18 @@ link: <https://help.github.com/articles/changing-a-remote-s-url>
 
 {% highlight bash %}
 
-	# change to ssh link for old repo
-	git remote -v
-	git remote set-url origin git@github.com:yujialive/yujialive.github.io.git
+# change to ssh link for old repo
+git remote -v
+git remote set-url origin git@github.com:yujialive/yujialive.github.io.git
 
-	# new git repo
-	git remote add origin git@github.com:yujialive/yujialive.github.io.git
+# new git repo
+git remote add origin git@github.com:yujialive/yujialive.github.io.git
 
-	git config --global user.name "yujialive"
-	git config --global user.email "yujialive@gmail.com"
+git config --global user.name "yujialive"
+git config --global user.email "yujialive@gmail.com"
 
-	# or
-	git config --local user.name "yujialive"
-	git config --local user.email "yujialive@gmail.com"
+# or
+git config --local user.name "yujialive"
+git config --local user.email "yujialive@gmail.com"
 
 {% endhighlight %}
