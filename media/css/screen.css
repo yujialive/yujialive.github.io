@@ -55,6 +55,7 @@ body{
     font-family: "Microsoft YaHei", Verdana, Tahoma, sans-serif;
     color: #111;
     background-color: #ffffff;
+    line-height: 1.5em;
 }
 #head_bg {
     margin:0 auto;
@@ -252,4 +253,10 @@ footer a:hover {
     -webkit-box-shadow: rgba(0,0,0,1.0) 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
     text-decoration: none;
 }
+#tag_cloud {
+    background: #efe;
+}
 
+#tag_cloud a {
+    margin:10px;
+}
