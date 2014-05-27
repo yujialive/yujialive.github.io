@@ -6,8 +6,8 @@ tags:
 - ssh
 ---
 
-link: <http://beiyuu.com/github-pages/>
-link: <https://help.github.com/articles/changing-a-remote-s-url>
+- link: <http://beiyuu.com/github-pages/>
+- link: <https://help.github.com/articles/changing-a-remote-s-url>
 
 ## open git bash to gen key
 
