@@ -29,9 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -53,7 +50,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-family: "Microsoft YaHei", Verdana, Tahoma, sans-serif;
-    color: #111;
+    color: #222;
     background-color: #ffffff;
     line-height: 1.5em;
 }
@@ -148,6 +145,7 @@ hr {
 }
 a {
     color: #0053A6;
+    text-decoration: none;
 }
 a:visited {
     color: #0053A6;
@@ -158,7 +156,8 @@ a.ss-icon {
 	color: #ccc;
 }
 a:hover {
-    color: #FF0000;
+    color: #ff0000;
+    text-decoration: underline;
 }
 em {
     font-style: italic;
@@ -255,10 +254,11 @@ footer a:hover {
 }
 
 #tag_cloud {
-    background: #efe;
+    border-bottom: #edebea solid 2px;
+    padding-bottom: 10px;
 }
 
 #tag_cloud a {
-    margin:7px;
-    padding:3px;
+    margin:6px 2px;
+    padding:3px 1px;
 }
