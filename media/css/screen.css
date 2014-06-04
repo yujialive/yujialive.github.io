@@ -264,10 +264,9 @@ footer a:hover {
 }
 
 #tag_cloud a {
-    margin: 6px 2px;
+    margin: 6px 1px;
     padding: 3px 1px;
-    color: #666;
-    font-weight: bold;
+    color: green;
     text-decoration: none;
 }
 
@@ -277,6 +276,5 @@ footer a:hover {
 }
 
 #tag_cloud span {
-    color: #0053A6;
-    font-weight: normal;
+    color: #333;
 }
