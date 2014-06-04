@@ -253,6 +253,11 @@ footer a:hover {
     text-decoration: none;
 }
 
+.clear {
+    clear: both;
+    height: 1px;
+}
+
 #tag_cloud {
     border-bottom: #edebea solid 2px;
     padding-bottom: 10px;
@@ -274,5 +279,6 @@ footer a:hover {
 .tag_item:hover {
     background: yellow;
     font-size: 2em;
-    padding:20px;
+    top:-20px;
+    left:-20px;
 }

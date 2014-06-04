@@ -9,6 +9,7 @@ layout: page
     <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} ({{ tag[1].size }})</a>
 </div>
 {% endfor %}
+<div class="clear"></div>
 </div>
 
 <ul class="listing">
