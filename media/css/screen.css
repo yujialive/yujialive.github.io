@@ -276,9 +276,9 @@ footer a:hover {
 }
 
 #tag_cloud span {
-    color: #333;
+    color: #666;
 }
 
 #tag_cloud a:hover span {
-    background: #f09;
+    background: #CCFFBF;
 }
