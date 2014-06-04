@@ -265,7 +265,7 @@ footer a:hover {
 
 #tag_cloud a {
     margin:6px 2px;
-    padding:3px 5px;
+    padding:3px 1px;
     color:green;
     text-decoration: none;
 }
@@ -273,4 +273,12 @@ footer a:hover {
 #tag_cloud a:hover {
     text-decoration: none;
     background: yellow;
+}
+
+#tag_cloud span {
+    color: #333;
+}
+
+#tag_cloud a:hover span {
+    background: #f09;
 }
