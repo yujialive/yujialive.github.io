@@ -5,11 +5,8 @@ layout: page
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<div class="tag_item">
-    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} ({{ tag[1].size }})</a>
-</div>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} ({{ tag[1].size }})</a>
 {% endfor %}
-<div class="clear"></div>
 </div>
 
 <ul class="listing">

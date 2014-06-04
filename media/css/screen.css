@@ -261,24 +261,16 @@ footer a:hover {
 #tag_cloud {
     border-bottom: #edebea solid 2px;
     padding-bottom: 10px;
-    position: relative;
 }
 
 #tag_cloud a {
     margin:6px 2px;
     padding:3px 1px;
-    color:#333;
+    color:green;
+    text-decoration: none;
 }
 
-.tag_item {
-    position: relative;
-    float: left;
-    font-size: 1em;
-}
-
-.tag_item:hover {
-    background: yellow;
-    font-size: 2em;
-    top:-20px;
-    left:-20px;
+#tag_cloud a:hover {
+    text-decoration: none;
+    font-weight: bold;
 }
