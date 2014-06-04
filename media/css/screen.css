@@ -261,13 +261,16 @@ footer a:hover {
 #tag_cloud a {
     margin:6px 2px;
     padding:3px 1px;
-    font-size: 1.0em;
     color:#333;
 }
 
-.tag_item:hover {
+.tag_item {
     position: relative;
     float: left;
+    font-size: 1em;
+}
+
+.tag_item:hover {
     background: yellow;
     font-size: 2em;
     padding:20px;

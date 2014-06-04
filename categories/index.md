@@ -5,9 +5,9 @@ layout: page
 
 <div id='tag_cloud'>
 {% for cat in site.categories %}
-<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">
-    <div class="tag_item">{{ cat[0] }} ({{ cat[1].size }})</div>
-</a>
+<div class="tag_item">
+    <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
+</div>
 {% endfor %}
 </div>
 
