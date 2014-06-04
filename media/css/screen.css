@@ -259,6 +259,15 @@ footer a:hover {
 }
 
 #tag_cloud a {
+    position: relative;
+    display: inline-block;
     margin:6px 2px;
     padding:3px 1px;
+    float: left;
+}
+
+#tag_cloud a:hover {
+    font-size: 1.5em;
+    color:#f09;
+    background: yellow;
 }
