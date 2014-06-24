@@ -16,6 +16,7 @@ tags: redmine
 ## install ruby on rails
 
 如何快速正确的安装 Ruby, Rails 运行环境
+
 link: <https://ruby-china.org/wiki/install_ruby_guide>
 
 以下代码区域，带有 $ 打头的表示需要在控制台（终端）下面执行（不包括 $ 符号）
@@ -73,7 +74,7 @@ $ tcp        0      0 localhost:mysql         *:*                     LISTEN    
 # If the server is not running correctly, you can type the following command to start it:
 $ sudo /etc/init.d/mysql restart
 
-** Configuration
+# Configuration
 
 # You can edit the /etc/mysql/my.cnf file to configure the basic settings 
 # -- log file, port number, etc. For example, to configure MySQL to listen for
@@ -85,7 +86,6 @@ bind-address = 192.168.0.5
 
 $ sudo /etc/init.d/mysql restart
 
-
 $ sudo apt-get install libmysqlclient-dev
 $ sudo dpkg -L libmysqlclient-dev|grep config
 
@@ -96,10 +96,11 @@ $ sudo dpkg -L libmysqlclient-dev|grep config
 {% endhighlight %}
 
 ## Download redmine
-link: http://www.redmine.org/projects/redmine/wiki/RedmineInstall
 
-$ tar -xvf redmine-2.5.1.tar.gz 
-basedir: ~/redmine/redmine-2.5.1
+link: <http://www.redmine.org/projects/redmine/wiki/RedmineInstall>
+
+	$ tar -xvf redmine-2.5.1.tar.gz 
+	basedir: ~/redmine/redmine-2.5.1
 
 ## Copy config/database.yml.example to config/database.yml
 
