@@ -56,60 +56,63 @@ link: <https://ruby-china.org/wiki/install_ruby_guide>
 
 link: <https://help.ubuntu.com/10.04/serverguide/mysql.html>
 
-** Installation
-$ sudo apt-get install mysql-server
+	** Installation
+	$ sudo apt-get install mysql-server
 
-# -u root -p root
-$ mysql -u root -p
-> show databases;
+	# -u root -p root
+	$ mysql -u root -p
+	> show databases;
 
-$ sudo netstat -tap | grep mysql
+	$ sudo netstat -tap | grep mysql
 
-# When you run this command, you should see the following line or something similar:
-$ tcp        0      0 localhost:mysql         *:*                     LISTEN      2556/mysqld
+	# When you run this command, you should see the following line or something similar:
+	$ tcp        0      0 localhost:mysql         *:*                     LISTEN      2556/mysqld
 
-# If the server is not running correctly, you can type the following command to start it:
-$ sudo /etc/init.d/mysql restart
+	# If the server is not running correctly, you can type the following command to start it:
+	$ sudo /etc/init.d/mysql restart
 
-** Configuration
+	** Configuration
 
-# You can edit the /etc/mysql/my.cnf file to configure the basic settings 
-# -- log file, port number, etc. For example, to configure MySQL to listen for
-# connections from network hosts, change the bind-address directive to the server's IP address:
+	# You can edit the /etc/mysql/my.cnf file to configure the basic settings 
+	# -- log file, port number, etc. For example, to configure MySQL to listen for
+	# connections from network hosts, change the bind-address directive to the server's IP address:
 
-bind-address = 192.168.0.5
+	bind-address = 192.168.0.5
 
-# After making a change to /etc/mysql/my.cnf the mysql daemon will need to be restarted:
+	# After making a change to /etc/mysql/my.cnf the mysql daemon will need to be restarted:
 
-$ sudo /etc/init.d/mysql restart
+	$ sudo /etc/init.d/mysql restart
 
 
-$ sudo apt-get install libmysqlclient-dev
-$ sudo dpkg -L libmysqlclient-dev|grep config
+	$ sudo apt-get install libmysqlclient-dev
+	$ sudo dpkg -L libmysqlclient-dev|grep config
 
-> grant all on redmine.* to 'redmine'@'localhost';
-> flush privileges;
-* install redmine
+	> grant all on redmine.* to 'redmine'@'localhost';
+	> flush privileges;
+	* install redmine
 
-** Download redmine
+## Download redmine
 link: http://www.redmine.org/projects/redmine/wiki/RedmineInstall
 
 $ tar -xvf redmine-2.5.1.tar.gz 
 basedir: ~/redmine/redmine-2.5.1
 
-** Copy config/database.yml.example to config/database.yml
+## Copy config/database.yml.example to config/database.yml
 
-# edit 
-production:
-  adapter: mysql2
-  database: redmine
-  host: localhost
-  port: 3307
-  username: redmine
-  password: 'my_password'
+	# edit 
+	production:
+	  adapter: mysql2
+	  database: redmine
+	  host: localhost
+	  port: 3307
+	  username: redmine
+	  password: 'my_password'
 
 
-# Dependencies installation
+## Dependencies installation
+
+{% highlight bash %}
+
 # You need to install Bundler first
 $ gem install bundler
 
@@ -134,4 +137,6 @@ $ RAILS_ENV=production rake db:migrate
 
 $ RAILS_ENV=production rake redmine:load_default_data
 
-http://www.2cto.com/os/201207/144189.html
+{% endhighlight %}
+
+<http://www.2cto.com/os/201207/144189.html>
