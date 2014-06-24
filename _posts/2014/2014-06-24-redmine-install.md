@@ -56,7 +56,9 @@ link: <https://ruby-china.org/wiki/install_ruby_guide>
 
 link: <https://help.ubuntu.com/10.04/serverguide/mysql.html>
 
-	** Installation
+{% highlight bash %}
+
+	# Installation
 	$ sudo apt-get install mysql-server
 
 	# -u root -p root
@@ -90,6 +92,8 @@ link: <https://help.ubuntu.com/10.04/serverguide/mysql.html>
 	> grant all on redmine.* to 'redmine'@'localhost';
 	> flush privileges;
 	* install redmine
+
+{% endhighlight %}
 
 ## Download redmine
 link: http://www.redmine.org/projects/redmine/wiki/RedmineInstall
