@@ -6,8 +6,6 @@ tags:
 - automation
 ---
 
-# [Android自动化2]Hierarchyviewer捕获Element的实现原理
-
 Android SDK tools下的工具hierarchyviewer可以展现Device上的Element的层次分布和自身属性，其核心函数之一就是LoadScene，研究后发现其实现方法是向Device的4939端口通过socket的方式发送了一个DUMP的命令，Device会自动处理该命令并将所有Screen上的Element层次结构和属性一并发回，实现代码如下：
 
 {% highlight java %}

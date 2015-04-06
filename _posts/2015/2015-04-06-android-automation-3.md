@@ -6,7 +6,6 @@ tags:
 - automation
 ---
 
-# [Android自动化3]架构实现
 
 前两节讲了用Android SDK自带的tool-hierarchyviewer来捕获Activity上Element，并分析了其中的原理。对于要实现GUI自动化，还有哪些工作没有完成呢？
 

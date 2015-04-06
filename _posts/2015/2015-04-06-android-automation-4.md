@@ -6,8 +6,6 @@ tags:
 - automation
 ---
 
-# [Android自动化4]模拟键盘鼠标事件(Socket+Instrumentation实现)
-
 通过Socket + Instrumentation实现模拟键盘鼠标事件主要通过以下三个部分组成：
 ## Socket编程：
 实现PC和Emulator通讯，并进行循环监听

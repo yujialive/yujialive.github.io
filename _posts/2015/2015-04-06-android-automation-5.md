@@ -6,7 +6,6 @@ tags:
 - automation
 ---
 
-# [Android自动化5]再述模拟键盘鼠标事件(adb shell 实现)
 
 上一篇博文中讲述了通过Socket编程从外部向Emulator发送键盘鼠标模拟事件，貌似实现细节有点复杂。其实Android还有一种更简单的模拟键盘鼠标事件的方法，那就是通过使用adb shell 命令。
 
