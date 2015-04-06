@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Android自动化测试初探1 捕获Activity上的Element
+title: [Android自动化1]捕获Activity上的Element
 categories: android
 tags: 
 - automation
 ---
+
 
 ## 第一部分：前言
 
