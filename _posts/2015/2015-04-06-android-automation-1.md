@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android自动化测试初探1: 捕获Activity上的Element
+title: Android自动化测试初探1 捕获Activity上的Element
 categories: android
 tags: 
 - automation
@@ -24,7 +24,7 @@ tags:
 
 创建基于hierarchyviewer.jar这个包的调用，需要将它和另外两个包，ddmlib.jar（在hierarchyviewer.jar同级目录中有）和org-netbeans-api-visual.jar（需要下载并安装netbeans，在其安装目录中有）一并导入到工程项目中，因为hierarchyviewer的实现依附于这两个包。
 
-想在代码中获取Activity上的Element需要进行如下几个步骤（如果使用过hierarchyviewer这个工具后会发现，自动化代码所要写的就是该工具上的使用步骤）：
+想在代码中获取Activity上的Element需要进行如下几个步骤（如果使用过hierarchyviewer这个工具后会发现，自动化代码所要写的就是该工具上的使用步骤）
 
 1. Ensure adb running
 2. Set adb location（因为hierarchyviewer和模拟器的沟通完全是依靠adb做的，所以设定正确的adb程序的位置至关重要，本人就曾在这个问题上栽了半天多）

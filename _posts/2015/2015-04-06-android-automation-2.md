@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android自动化测试初探2: Hierarchyviewer 捕获Element的实现原理
+title: Android自动化测试初探2 Hierarchyviewer 捕获Element的实现原理
 categories: android
 tags: 
 - automation
@@ -63,3 +63,5 @@ public static void listElement(IDevice device) {
     43463710 StatusBar
     43484c58 Keyguard
     DONE.
+
+END
