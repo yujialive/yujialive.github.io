@@ -1,11 +1,12 @@
 ---
 layout: post
-title: [Android自动化1]捕获Activity上的Element
+title: Android自动化1_捕获Activity上的Element
 categories: android
 tags: 
 - automation
 ---
 
+# [Android自动化1]捕获Activity上的Element
 
 ## 第一部分：前言
 

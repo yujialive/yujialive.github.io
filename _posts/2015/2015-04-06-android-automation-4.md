@@ -1,10 +1,12 @@
 ---
 layout: post
-title: [Android自动化4]模拟键盘鼠标事件(Socket+Instrumentation实现)
+title: Android自动化4_模拟键盘鼠标事件_Socket_Instrumentation实现
 categories: android
 tags: 
 - automation
 ---
+
+# [Android自动化4]模拟键盘鼠标事件(Socket+Instrumentation实现)
 
 通过Socket + Instrumentation实现模拟键盘鼠标事件主要通过以下三个部分组成：
 ## Socket编程：
